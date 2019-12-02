@@ -1,6 +1,5 @@
-In this code challenge, we were supposed to solve the problem with the following requirements:
- 
-Problem:
+
+ Coding challenge:
 
 Write a command line program in the language of your choice that will take operations on fractions as an input and produce a fractional result.
 
@@ -12,24 +11,25 @@ Write a command line program in the language of your choice that will take opera
 
 * Improper fractions and whole numbers are also allowed as operands
 
-Solution:
 
-Depending on were you copied the folder, the directory we name Fract, for exameple if you copied it on your C:\ you need to go to C:\Fract. From there you can compile it running :
- 
- Compilation:
- 
-<Path>csc Program.cs  
+How to build:
+- Prerequisites: .NET Framework (Windows) or .Net Core 
+- Compilation:
+On Windows: 
+cd to_the_solution_folder
+csc Program.cs  
 
-Example : C:\Fract>csc Program.cs
+On Mac:
+cd to_the_solution_folder
+dotnet build
 
-If you get an error, several reasons might have cause it : 
+To run the program:
 
--  .NET Framework is not installed (please install the .Net Framework)
-
-- >NET Framework is not added to the system path, please run the code from C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc or the equivalent on your machine
 
 Execution:
 
 <Path>csc Program.exe
 
 Example : C:\Fract>csc Program.exe
+
+You can also use visual Studio IDE to compile and run this project.
